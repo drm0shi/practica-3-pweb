@@ -1,0 +1,77 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(0, 0, 129);
+}
+header{
+    background-color: black;
+    height: 100px;
+}
+h1{
+    color: white;
+    text-align:center;
+}
+h1::first-letter{
+    color: red;
+}
+img{
+    padding: 4px;
+    height: 400px;
+    transition: 1s;
+}
+#omn:hover
+{
+    height: 400px;
+    transform: scale(1.1) rotate(10deg);
+    transition: 1s;
+}
+#div1{
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transition: 1s;
+}
+#div1:hover{
+    transform: scale(1.1) rotate(10deg);
+    transition: 1s;
+}
+#div2{
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transition: 1s;
+}
+#div2:hover
+{
+    transform: rotate(10deg);
+}
+#div3{
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transition: 1s;
+}
+#div3:hover{
+    transform: rotate(10deg);
+    transition: 1s;
+}
